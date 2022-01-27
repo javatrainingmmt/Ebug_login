@@ -36,7 +36,7 @@ public class AuthenticationControllerTest {
 	@Autowired
 	private UserEntity user;
 	
-	/*@Test
+	@Test
 	public void register(){
 		UserEntity user = new UserEntity(1,"admin","password","ADMIN");
 		//when(userrepo.save(user)).thenReturn(user);
@@ -52,7 +52,7 @@ public class AuthenticationControllerTest {
 		assertEquals(user.getUsername(),user1.getUsername());
 		
 		
-	}*/
+	}
 	
 	
 }
